@@ -19,9 +19,8 @@
   "content_scripts": [
     {
       "matches": [
-        "http://*/*",
-        "https://*/*",
-        "<all_urls>"
+        "http://app.tavily.com/*",
+        "https://app.tavily.com/*"
       ],
       "js": [
         "src/pages/content/index.tsx"
